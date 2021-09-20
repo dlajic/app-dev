@@ -35,13 +35,13 @@
 // On Mac : Shift + Option + F
 // On Linux : Ctrl + Shift + I
 
-let a=              1234    ;
-   a++;
-                if (  a > 123 ) {
-a--;
-        }
-                                              else a++
-        console.log(a);
+let a = 1234;
+a++;
+if (a > 123) {
+    a--;
+}
+else a++
+console.log(a);
 
 // Nothing happened? 
 // If so, your code (technically my code, if you just cloned it)
@@ -84,10 +84,10 @@ a--;
 // Hint: follow the pattern.
 a = 1
 b = 2
-c .= 3
+c= 3
 
 // Hint: This function has no name following the word function.
-function(notUsed) {
+function myfunction () {
     console.log('Hello!');
 }
 
@@ -195,7 +195,7 @@ console.log(outcome);
 
 console.log('I want to say it 10 times:');
 for (let i = 0; i < 10; i++) {
-    console.log(i+1 + ': ' + outcome);
+    console.log(i + 1 + ': ' + outcome);
 }
 console.log('Mike drop.');
 
